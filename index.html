@@ -4,36 +4,232 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joel Baarbe - B.Eng.</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Joel Baarbe, B.Eng. — chemical engineer and MASc student at McMaster University working on soft sensors for biomanufacturing.">
 
-    <link rel="icon" href="cello.png" type="image/png"> 
-
+    <link rel="icon" href="cello.png" type="image/png">
     <!-- <a href="https://www.flaticon.com/free-icons/cello" title="cello icons">Cello icons created by dwiangga.icon  - Flaticon</a> -->
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Joel Baarbe<h1>
-        </header>
+    <nav class="nav" id="nav">
+        <a class="nav-brand" href="#top">JB</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section class="profile">
-            <img src="JoelB_2.png" alt="">
-            <div class="bio">
-                <h2></h2>
-                <p>I am a recent gradutate (April 2024) of chemical engineering who is passionate about process control, optimization, and statistical modelling.<p>
-                <p>I am currently a graduate student at McMaster University studying a Master of Applied Science in the pursuit of developing soft sensors in biomanufacturing processes.</p>
-                <p>I have many hobbies including running, music, and programming. I am actively participating in races, including 10km and half-marathon events.</p>
+    <header class="hero" id="top">
+        <div class="hero-inner">
+            <img class="hero-photo" src="JoelB_2.png" alt="Portrait of Joel Baarbe">
+            <p class="eyebrow">Chemical Engineer &middot; MASc Candidate</p>
+            <h1>Joel Baarbe</h1>
+            <p class="hero-lede">
+                Building soft sensors for biomanufacturing at McMaster University &mdash;
+                with a passion for process control, optimization, and statistical modelling.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="mailto:joelbaarbe@gmail.com">Get in touch</a>
+                <a class="btn btn-ghost" href="#about">Learn more</a>
+            </div>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to About">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <div class="wrap two-col">
+                <div>
+                    <p class="section-label">About</p>
+                    <h2>Engineering better processes through data.</h2>
+                </div>
+                <div class="prose">
+                    <p>I am a recent graduate (April 2024) of chemical engineering who is passionate about process control, optimization, and statistical modelling.</p>
+                    <p>I am currently a graduate student at McMaster University studying a Master of Applied Science in the pursuit of developing soft sensors in biomanufacturing processes.</p>
+                    <p>Outside of the lab I have many hobbies, including running, music, and programming. I actively participate in races, including 10&nbsp;km and half-marathon events.</p>
+                </div>
             </div>
         </section>
 
-        <footer>
-            <h3>Contact Me:</h3>
-            <p>Phone Number: <a href="" target="">(289) 685-9975</a></p>
-            <p>Email: <a href="mailto:joelbaarbe@gmail.com">joelbaarbe@gmail.com</a></p>
-            <!-- <p>LinkedIn: <a href="https://www.linkedin.com/in/joel-baarbe/" target="_blank">linkedin.com/in/joel-baarbe/</a></p>
-        --> 
-        </footer>
-    </div>
+        <section class="section section-tint" id="research">
+            <div class="wrap">
+                <p class="section-label">Research &amp; Focus Areas</p>
+                <h2>What I work on</h2>
+                <div class="cards">
+                    <article class="card card-feature">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/></svg>
+                        </div>
+                        <h3>Soft Sensors in Biomanufacturing</h3>
+                        <p>My MASc research at McMaster focuses on developing soft sensors &mdash; models that infer hard-to-measure process variables from readily available data &mdash; for biomanufacturing processes.</p>
+                        <span class="tag">Current research</span>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
+                        </div>
+                        <h3>Process Control</h3>
+                        <p>Keeping chemical and biological processes stable, safe, and on target.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 16c2-6 4-9 7-9s5 3 7 9"/><circle cx="12" cy="7" r="1.5" fill="currentColor"/></svg>
+                        </div>
+                        <h3>Optimization</h3>
+                        <p>Finding the best operating conditions to improve efficiency and performance.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><circle cx="8" cy="14" r="1.2" fill="currentColor"/><circle cx="11" cy="11" r="1.2" fill="currentColor"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><circle cx="17" cy="8" r="1.2" fill="currentColor"/><path d="M6 17L19 6"/></svg>
+                        </div>
+                        <h3>Statistical Modelling</h3>
+                        <p>Turning process data into models that explain, predict, and inform decisions.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="wrap">
+                <p class="section-label">Projects</p>
+                <h2>Selected work</h2>
+                <div class="placeholder">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></svg>
+                    </div>
+                    <h3>Coming soon</h3>
+                    <p>Project write-ups are on the way. Check back soon.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-tint" id="education">
+            <div class="wrap">
+                <p class="section-label">Education</p>
+                <h2>Academic path</h2>
+                <ol class="timeline">
+                    <li class="timeline-item">
+                        <span class="timeline-date">Present</span>
+                        <div class="timeline-body">
+                            <h3>Master of Applied Science (MASc)</h3>
+                            <p class="timeline-org">McMaster University</p>
+                            <p>Graduate research on developing soft sensors for biomanufacturing processes.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <span class="timeline-date">April 2024</span>
+                        <div class="timeline-body">
+                            <h3>Bachelor of Engineering (B.Eng.)</h3>
+                            <p class="timeline-org">McMaster University &middot; Chemical Engineering</p>
+                            <p>Graduated with a focus on process control, optimization, and statistical modelling.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section" id="interests">
+            <div class="wrap">
+                <p class="section-label">Beyond the Lab</p>
+                <h2>Interests &amp; hobbies</h2>
+                <div class="cards cards-3">
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="4" r="2"/><path d="M8 21l3-6 3 2v5"/><path d="M6 12l3-4 4 1 3 4 3 1"/><path d="M11 15l2-6"/></svg>
+                        </div>
+                        <h3>Running</h3>
+                        <p>An active racer, competing in 10&nbsp;km and half-marathon events.</p>
+                        <div class="chips"><span>10 km</span><span>Half-marathon</span></div>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <img src="cello.png" alt="" width="26" height="26">
+                        </div>
+                        <h3>Music</h3>
+                        <p>Music has long been a creative counterpoint to engineering work.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5"/><path d="M16 7l5 5-5 5"/><path d="M13.5 4l-3 16"/></svg>
+                        </div>
+                        <h3>Programming</h3>
+                        <p>Writing code for fun and for research &mdash; from data analysis to modelling tools.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="wrap contact-inner">
+                <p class="section-label light">Contact</p>
+                <h2>Let&rsquo;s connect.</h2>
+                <p class="contact-lede">Interested in process control, soft sensors, or just talking about running? Reach out.</p>
+                <div class="contact-links">
+                    <a class="contact-link" href="mailto:joelbaarbe@gmail.com">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+                        joelbaarbe@gmail.com
+                    </a>
+                    <a class="contact-link" href="tel:+12896859975">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+                        (289) 685-9975
+                    </a>
+                    <a class="contact-link" href="https://www.linkedin.com/in/joel-baarbe/" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7"/><path d="M8 7v.01"/><path d="M12 17v-7"/><path d="M12 13a3 3 0 0 1 6 0v4"/></svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> Joel Baarbe</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const nav = document.getElementById('nav');
+        const toggle = document.getElementById('nav-toggle');
+        const links = document.getElementById('nav-links');
+
+        const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 40);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        toggle.addEventListener('click', () => {
+            const open = links.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        }));
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver(entries => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+                });
+            }, { threshold: 0.12 });
+            document.querySelectorAll('.section .wrap, .contact-inner').forEach(el => {
+                el.classList.add('reveal');
+                io.observe(el);
+            });
+        }
+    </script>
 </body>
 </html>
