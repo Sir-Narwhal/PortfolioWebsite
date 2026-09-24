@@ -376,6 +376,29 @@ h3 {
     color: var(--slate);
 }
 
+/* ---------- Projects placeholder ---------- */
+.placeholder {
+    border: 2px dashed var(--line);
+    border-radius: var(--radius);
+    padding: 56px 28px;
+    text-align: center;
+}
+
+.placeholder .card-icon {
+    margin: 0 auto 18px;
+}
+
+.placeholder h3 {
+    font-size: 1.4rem;
+    color: var(--slate-deep);
+    margin-bottom: 8px;
+}
+
+.placeholder p {
+    margin: 0;
+    color: var(--muted);
+}
+
 /* ---------- Timeline ---------- */
 .timeline {
     list-style: none;
@@ -415,7 +438,7 @@ h3 {
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background: var(--paper);
+    background: #fff;
     border: 3px solid var(--coral);
 }
 
