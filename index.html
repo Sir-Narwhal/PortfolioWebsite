@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joel Baarbé - B.Eng.</title>
-    <meta name="description" content="Joel Baarbé, B.Eng. — chemical engineer and MASc student at McMaster University working on soft sensors for biomanufacturing.">
+    <meta name="description" content="Joel Baarbé, B.Eng. — chemical engineer and MASc candidate at McMaster University specializing in advanced process control, industrial automation, and real-time data infrastructure for continuous biomanufacturing.">
 
     <link rel="icon" href="cello.png" type="image/png">
     <!-- <a href="https://www.flaticon.com/free-icons/cello" title="cello icons">Cello icons created by dwiangga.icon  - Flaticon</a> -->
@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
     <nav class="nav" id="nav">
@@ -24,8 +24,9 @@
             <li><a href="#about">About</a></li>
             <li><a href="#research">Research</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#interests">Interests</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -33,15 +34,15 @@
     <header class="hero" id="top">
         <div class="hero-inner">
             <img class="hero-photo" src="JoelB_2.png" alt="Portrait of Joel Baarbé">
-            <p class="eyebrow">Chemical Engineer &middot; MASc Candidate</p>
+            <p class="eyebrow">Chemical Engineer &middot; Process Control &amp; Automation</p>
             <h1>Joel Baarbé</h1>
             <p class="hero-lede">
-                Building soft sensors for biomanufacturing at McMaster University &mdash;
-                with a passion for process control, optimization, and statistical modelling.
+                Building the automation, real-time data infrastructure, and estimation algorithms
+                behind continuous biomanufacturing at McMaster University.
             </p>
             <div class="hero-actions">
                 <a class="btn btn-primary" href="mailto:joelbaarbe@gmail.com">Get in touch</a>
-                <a class="btn btn-ghost" href="#about">Learn more</a>
+                <a class="btn btn-ghost" href="#projects">See my work</a>
             </div>
         </div>
         <a class="scroll-cue" href="#about" aria-label="Scroll to About">
@@ -54,14 +55,22 @@
             <div class="wrap two-col">
                 <div>
                     <p class="section-label">About</p>
-                    <h2>Engineering better processes through data.</h2>
+                    <h2>From plant floor to process model.</h2>
                 </div>
                 <div class="prose">
-                    <p>I&rsquo;m a chemical engineer (B.Eng., McMaster University, April 2024) drawn to one question: how can we make complex processes run more predictably, efficiently, and safely? Process control, optimization, and statistical modelling are the tools I reach for to answer it.</p>
-                    <p>Today I&rsquo;m pursuing a Master of Applied Science at McMaster, developing soft sensors for biomanufacturing. Living systems like cell cultures are hard to measure in real time. Many of the variables that matter most can only be checked through slow offline sampling. My work uses the data a process already generates to estimate those hidden variables continuously, so engineers can see what&rsquo;s happening and act sooner.</p>
-                    <p>I enjoy sitting where engineering fundamentals meet data science. I want to understand the chemistry and biology of a process well enough to model it properly, and I want to write the code that turns those models into something people can actually use.</p>
-                    <p>Outside the lab you&rsquo;ll find me training for my next race (I regularly run 10&nbsp;km and half-marathon events), making music, or working on a programming side project. Each one asks for the same patience and steady, step-by-step improvement that good engineering does.</p>
+                    <p>I&rsquo;m a chemical engineer specializing in advanced process control, industrial automation, and real-time process data infrastructure. I like work that spans the whole stack: wiring a PLC into a SCADA system, building the database that stores its data, and writing the model and estimator that turn that data into decisions.</p>
+                    <p>I&rsquo;m currently an M.A.Sc. candidate in Chemical Engineering at McMaster University under Dr. Prashant Mhaskar. My thesis is on spectroscopy-driven concentration estimation for continuous monoclonal antibody manufacturing. Working with Sartorius Stedim Biotech, I&rsquo;ve helped develop, integrate, and operate the upstream and downstream automation and connectivity systems for a continuous mAb process. I also served as the downstream (DSP) lead during an integrated manufacturing campaign.</p>
+                    <p>Before graduate school I earned my B.Eng. in Chemical Engineering at McMaster on the Dean&rsquo;s Honour List, specializing in Process Systems Engineering. During my internship at Nylene Canada I validated plant modifications that saved roughly 2&ndash;3% and implemented real-time wastewater monitoring.</p>
+                    <p>Outside the lab I run 10&nbsp;km and half-marathon races, make music, and help lead a summer camp. That&rsquo;s where I once wrote an optimization model to assign electives to 800+ campers.</p>
                 </div>
+            </div>
+            <div class="wrap">
+                <ul class="stats" aria-label="Highlights">
+                    <li><strong>250+</strong><span>valves controlled by a SCADA system I built</span></li>
+                    <li><strong>8,000+</strong><span>process variables streamed every 2&nbsp;seconds</span></li>
+                    <li><strong>~20&times;</strong><span>more spectral wavelengths captured for modelling</span></li>
+                    <li><strong>3.85</strong><span>graduate cGPA at McMaster</span></li>
+                </ul>
             </div>
         </section>
 
@@ -74,30 +83,51 @@
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/></svg>
                         </div>
-                        <h3>Soft Sensors in Biomanufacturing</h3>
-                        <p>My MASc research at McMaster focuses on developing soft sensors for biomanufacturing processes. A soft sensor is a model that infers hard-to-measure process variables from readily available data. In biomanufacturing, key quality indicators often need hours of offline lab analysis, while sensors for variables like temperature, pH, and dissolved oxygen report continuously. A soft sensor connects the two, giving real-time estimates that support tighter monitoring, faster decisions, and more consistent product quality.</p>
-                        <span class="tag">Current research</span>
+                        <h3>Spectroscopy-Driven Estimation for Continuous Antibody Manufacturing</h3>
+                        <p>Continuous biomanufacturing runs nonstop, so operators need to know protein concentrations as the process runs, not hours later from an offline sample. My M.A.Sc. thesis combines inline UV and Raman spectroscopy with multivariate modelling (PCA/PLS) and mechanistic state estimation to infer concentration in real time across a continuous monoclonal antibody process. That is the foundation for tighter monitoring, process analytical technology (PAT), and advanced control.</p>
+                        <span class="tag">Current research &middot; Dr. P. Mhaskar</span>
                     </article>
                     <article class="card">
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
                         </div>
-                        <h3>Process Control</h3>
-                        <p>Keeping chemical and biological processes stable, safe, and on target. Good control strategies absorb disturbances, cut down on variability, and let a process run closer to its best operating point without crossing safety limits.</p>
+                        <h3>Advanced Process Control</h3>
+                        <p>Model predictive control (MPC), PID tuning, and digital control design that keep processes stable, safe, and on target, even through disturbances.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.8" fill="currentColor"/></svg>
+                        </div>
+                        <h3>State Estimation</h3>
+                        <p>Extended Kalman and particle filters that combine noisy measurements with process models to estimate states no sensor can see directly.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17c3 0 3-10 6-10s3 10 6 10 3-6 6-6"/></svg>
+                        </div>
+                        <h3>Process Modelling</h3>
+                        <p>Mechanistic ODE-based and dynamic models, calibrated to experimental data and written in state-space form so they can be used for estimation and control.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><circle cx="8" cy="14" r="1.2" fill="currentColor"/><circle cx="11" cy="11" r="1.2" fill="currentColor"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><circle cx="17" cy="8" r="1.2" fill="currentColor"/><path d="M6 17L19 6"/></svg>
+                        </div>
+                        <h3>Multivariate Statistics</h3>
+                        <p>PCA and PLS for high-dimensional process and spectral data, turning thousands of correlated signals into models you can understand.</p>
                     </article>
                     <article class="card">
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 16c2-6 4-9 7-9s5 3 7 9"/><circle cx="12" cy="7" r="1.5" fill="currentColor"/></svg>
                         </div>
                         <h3>Optimization</h3>
-                        <p>Finding the best operating conditions to improve efficiency and performance. That means turning engineering trade-offs (yield against cost, throughput against quality) into clear mathematical problems that can be solved and acted on.</p>
+                        <p>LP, NLP, and MIP formulations in Pyomo and GAMS for equipment design, process economics, operations, and scheduling.</p>
                     </article>
                     <article class="card">
                         <div class="card-icon">
-                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><circle cx="8" cy="14" r="1.2" fill="currentColor"/><circle cx="11" cy="11" r="1.2" fill="currentColor"/><circle cx="14" cy="12" r="1.2" fill="currentColor"/><circle cx="17" cy="8" r="1.2" fill="currentColor"/><path d="M6 17L19 6"/></svg>
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/><path d="M7 12l3-3 2 2 5-5"/></svg>
                         </div>
-                        <h3>Statistical Modelling</h3>
-                        <p>Turning process data into models that explain, predict, and inform decisions. I care about models that are accurate and also understandable: you should know why a prediction was made and how far to trust it.</p>
+                        <h3>Industrial Automation</h3>
+                        <p>PLCs, SCADA, OPC-UA, and Modbus, plus the Industrial IoT and data infrastructure that connect equipment to people and algorithms.</p>
                     </article>
                 </div>
             </div>
@@ -107,12 +137,121 @@
             <div class="wrap">
                 <p class="section-label">Projects</p>
                 <h2>Selected work</h2>
-                <div class="placeholder">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></svg>
-                    </div>
-                    <h3>Coming soon</h3>
-                    <p>Project write-ups are on the way. Check back soon.</p>
+                <div class="projects">
+                    <article class="card project project-feature">
+                        <p class="project-kicker">Continuous mAb biomanufacturing &middot; McMaster &times; Sartorius</p>
+                        <h3>In-House SCADA for Continuous Chromatography</h3>
+                        <p>I built an industrial SCADA system from the ground up to run the downstream train of a continuous monoclonal antibody process. It connects PLCs over OPC-UA and Modbus and uses Redis and MongoDB as a real-time data backbone, with automated alerts when the process drifts.</p>
+                        <ul>
+                            <li>Controls <strong>250+ valves</strong> and streams <strong>8,000+ process variables every 2&nbsp;seconds</strong></li>
+                            <li>Served as DSP lead, deploying and operating the platform during an integrated continuous campaign: 2&nbsp;L perfusion upstream feeding Protein&nbsp;A chromatography with inline UV/Raman</li>
+                            <li>Wrote SOPs and technical documentation for the experimental, automation, and spectroscopy workflows</li>
+                        </ul>
+                        <div class="chips"><span>PLC</span><span>OPC-UA</span><span>Modbus</span><span>Redis</span><span>MongoDB</span><span>Automated alerts</span></div>
+                    </article>
+                    <article class="card project">
+                        <p class="project-kicker">Data infrastructure</p>
+                        <h3>OPC-UA Server for Raw Spectroscopic Data</h3>
+                        <p>I engineered a Dockerized OPC-UA/UDP pipeline that expanded wavelength acquisition from 10 to 201 channels (about 20&times;). That made full-spectrum PCA/PLS modelling possible on what had been a heavily down-sampled signal.</p>
+                        <div class="chips"><span>Docker</span><span>OPC-UA</span><span>UDP</span><span>PCA/PLS</span></div>
+                    </article>
+                    <article class="card project">
+                        <p class="project-kicker">Estimation &amp; modelling</p>
+                        <h3>State Estimation of a Nonlinear Chromatography System</h3>
+                        <p>I calibrated a mechanistic, ODE-based chromatography model to experimental data and wrote it as a dynamic state-space model. Then I implemented custom Extended Kalman and particle filters to estimate bound and free protein concentrations in real time.</p>
+                        <div class="chips"><span>EKF</span><span>Particle filter</span><span>ODE models</span><span>State-space</span></div>
+                    </article>
+                    <article class="card project">
+                        <p class="project-kicker">Industry &middot; Nylene Canada</p>
+                        <h3>Real-Time Wastewater BOD Estimation</h3>
+                        <p>I implemented real-time estimation of biological oxygen demand (BOD) to monitor and control wastewater released from a nylon-6 plant. Operators got a continuous view of discharge quality, which supported environmental compliance.</p>
+                        <div class="chips"><span>Soft sensing</span><span>Environmental compliance</span></div>
+                    </article>
+                    <article class="card project">
+                        <p class="project-kicker">Optimization in the wild</p>
+                        <h3>Camp Elective Scheduling with Linear Programming</h3>
+                        <p>I formulated and deployed a Pyomo LP that assigns 4 of 20+ electives to each of 800+ campers. It maximizes preferences and keeps friends together while respecting capacity and scheduling constraints.</p>
+                        <div class="chips"><span>Pyomo</span><span>Linear programming</span><span>Scheduling</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-tint" id="experience">
+            <div class="wrap">
+                <p class="section-label">Experience</p>
+                <h2>Where I&rsquo;ve worked</h2>
+                <ol class="timeline">
+                    <li class="timeline-item">
+                        <span class="timeline-date">2024 &ndash; Present</span>
+                        <div class="timeline-body">
+                            <h3>Graduate Researcher</h3>
+                            <p class="timeline-org">McMaster University &middot; in collaboration with Sartorius Stedim Biotech</p>
+                            <ul>
+                                <li>Develop, integrate, and operate upstream and downstream automation and connectivity systems for continuous monoclonal antibody biomanufacturing</li>
+                                <li>DSP lead for an integrated continuous manufacturing campaign</li>
+                                <li>Author SOPs and technical documentation, including UV/Raman spectroscopy workflows</li>
+                                <li>Student member of the McMaster Advanced Control Consortium (MACC), presenting at technical meetings and conferences</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <span class="timeline-date">2025 &ndash; 2026</span>
+                        <div class="timeline-body">
+                            <h3>Boys Camp Co-Director <span class="timeline-note">(Volunteer)</span></h3>
+                            <p class="timeline-org">Galilee Bible Camp &middot; Haley Station, ON</p>
+                            <ul>
+                                <li>Co-organized a 6-day overnight camp week for 100+ campers aged 12&ndash;15</li>
+                                <li>Supervised 23+ cabin group leaders with daily direction and real-time support</li>
+                                <li>Resolved behavioural and logistical challenges and coordinated communication across leadership, support, and program staff</li>
+                                <li>Built a Pyomo-based LP to assign electives to 800+ campers</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <span class="timeline-date">2022 &ndash; 2023</span>
+                        <div class="timeline-body">
+                            <h3>Process Engineering Intern</h3>
+                            <p class="timeline-org">Nylene Canada &middot; Arnprior, ON</p>
+                            <ul>
+                                <li>Validated process modifications to a nylon-6 plant that reduced its carbon footprint and raised production, saving ~2&ndash;3%</li>
+                                <li>Implemented real-time biological oxygen demand (BOD) estimation for wastewater release monitoring and control</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="wrap">
+                <p class="section-label">Skills &amp; Attributes</p>
+                <h2>What I bring</h2>
+                <div class="cards skills">
+                    <article class="card">
+                        <h3>Process Control &amp; Modelling</h3>
+                        <div class="chips"><span>Model predictive control</span><span>Dynamic process modelling</span><span>State estimation (EKF, PF)</span><span>PCA / PLS</span><span>PID tuning</span></div>
+                    </article>
+                    <article class="card">
+                        <h3>Industrial Automation</h3>
+                        <div class="chips"><span>PLC programming</span><span>SCADA</span><span>OPC-UA</span><span>Modbus</span><span>Industrial IoT</span></div>
+                    </article>
+                    <article class="card">
+                        <h3>Bioprocessing</h3>
+                        <div class="chips"><span>Continuous biomanufacturing</span><span>Chromatography</span><span>UV / Raman spectroscopy</span><span>PAT</span></div>
+                    </article>
+                    <article class="card">
+                        <h3>Programming &amp; Optimization</h3>
+                        <div class="chips"><span>Python</span><span>C#</span><span>MATLAB</span><span>Simulink</span><span>Pyomo</span><span>GAMS / pyGAMS</span><span>LP &middot; NLP &middot; MIP</span><span>Git / GitHub</span></div>
+                    </article>
+                    <article class="card">
+                        <h3>Data &amp; Infrastructure</h3>
+                        <div class="chips"><span>MongoDB</span><span>Redis</span><span>Docker</span><span>Proxmox</span><span>Twilio</span></div>
+                    </article>
+                    <article class="card">
+                        <h3>Professional</h3>
+                        <div class="chips"><span>Technical writing</span><span>SOP development</span><span>Technical presentations</span><span>Root cause analysis</span><span>Quality assurance</span><span>Team leadership</span></div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -123,19 +262,21 @@
                 <h2>Academic path</h2>
                 <ol class="timeline">
                     <li class="timeline-item">
-                        <span class="timeline-date">Present</span>
+                        <span class="timeline-date">2024 &ndash; Jan 2027</span>
                         <div class="timeline-body">
-                            <h3>Master of Applied Science (MASc)</h3>
-                            <p class="timeline-org">McMaster University</p>
-                            <p>Graduate research on developing soft sensors for biomanufacturing processes, combining process knowledge with data-driven modelling to estimate key variables in real time.</p>
+                            <h3>M.A.Sc., Chemical Engineering</h3>
+                            <p class="timeline-org">McMaster University &middot; Supervisor: Dr. P. Mhaskar &middot; cGPA 3.85</p>
+                            <p><em>Thesis:</em> Spectroscopic Driven Estimation of Concentration for Continuous Antibody Manufacturing. Expected graduation January 2027.</p>
+                            <div class="chips"><span>Multivariate Statistics for Big Data (A+)</span><span>Biopharmaceuticals (A+)</span><span>Optimization of Chemical Processes (A&minus;)</span></div>
                         </div>
                     </li>
                     <li class="timeline-item">
-                        <span class="timeline-date">April 2024</span>
+                        <span class="timeline-date">2019 &ndash; 2024</span>
                         <div class="timeline-body">
-                            <h3>Bachelor of Engineering (B.Eng.)</h3>
-                            <p class="timeline-org">McMaster University &middot; Chemical Engineering</p>
-                            <p>Built a foundation in thermodynamics, transport phenomena, reaction engineering, and process design, with a particular focus on process control, optimization, and statistical modelling.</p>
+                            <h3>B.Eng., Chemical Engineering</h3>
+                            <p class="timeline-org">McMaster University &middot; Process Systems Engineering &middot; cGPA 3.70 &middot; Dean&rsquo;s Honour List</p>
+                            <p>Coursework covered LP, NLP, and MIP for design, economics, and scheduling; dynamic modelling and model predictive control; and PID and computer process control.</p>
+                            <div class="chips"><span>Optimization in Chemical Engineering (A+)</span><span>Digital Computer Process Control (A&minus;)</span><span>Process Control (A&minus;)</span></div>
                         </div>
                     </li>
                 </ol>
@@ -152,7 +293,7 @@
                             <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="4" r="2"/><path d="M8 21l3-6 3 2v5"/><path d="M6 12l3-4 4 1 3 4 3 1"/><path d="M11 15l2-6"/></svg>
                         </div>
                         <h3>Running</h3>
-                        <p>An active racer, competing in 10&nbsp;km and half-marathon events. Training is its own optimization problem: steady effort, careful tracking, and small gains that add up over months.</p>
+                        <p>An active racer in 10&nbsp;km and half-marathon events. Training is its own optimization problem: steady effort, careful tracking, and small gains that add up over months.</p>
                         <div class="chips"><span>10 km</span><span>Half-marathon</span></div>
                     </article>
                     <article class="card">
@@ -160,14 +301,14 @@
                             <img src="cello.png" alt="" width="26" height="26">
                         </div>
                         <h3>Music</h3>
-                        <p>Music has long been a creative counterpoint to engineering work. It rewards disciplined practice and attention to detail, and it&rsquo;s a reminder that precision and expression can go together.</p>
+                        <p>Music has long been a creative counterpoint to engineering. It rewards disciplined practice and attention to detail, and it&rsquo;s a reminder that precision and expression go together.</p>
                     </article>
                     <article class="card">
                         <div class="card-icon">
-                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5"/><path d="M16 7l5 5-5 5"/><path d="M13.5 4l-3 16"/></svg>
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 20v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M21 20v-2a4 4 0 0 0-3-3.9"/><path d="M16 3.1a4 4 0 0 1 0 7.8"/></svg>
                         </div>
-                        <h3>Programming</h3>
-                        <p>Writing code for fun and for research, from data analysis to modelling tools. For me, programming is how ideas on paper become working tools I can test, share, and improve.</p>
+                        <h3>Camp Leadership</h3>
+                        <p>Co-directing a week of camp for 100+ teens and supporting a team of 23+ leaders. It taught me as much about communication and staying calm under pressure as any engineering course.</p>
                     </article>
                 </div>
             </div>
@@ -177,7 +318,7 @@
             <div class="wrap contact-inner">
                 <p class="section-label light">Contact</p>
                 <h2>Let&rsquo;s connect.</h2>
-                <p class="contact-lede">Interested in process control, soft sensors, or just talking about running? Reach out.</p>
+                <p class="contact-lede">Based in Ottawa, Ontario. I&rsquo;m always happy to talk about process control, automation, continuous biomanufacturing, or running. Reach out.</p>
                 <div class="contact-links">
                     <a class="contact-link" href="mailto:joelbaarbe@gmail.com">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
